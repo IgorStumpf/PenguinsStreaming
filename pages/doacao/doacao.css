@@ -1,0 +1,57 @@
+.black-section {
+	background-color: #0D0D0D;
+	color: white;
+	width: 100%;
+	padding: 15%;
+}
+
+.heading-text {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+
+.heading-text p {
+	margin-top: 1em;
+}
+
+#pricing {
+	padding-top: 200px;
+	height: auto;
+}
+
+.nav_link {
+	font-weight: 500;
+	color: var(--clr-dark);
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.nav_link:hover {
+	font-size: 1.25em;
+}
+
+.card {
+	color: #212529;
+	text-align: center;
+	margin: auto;
+	max-width: 350px;
+	min-width: 250px;
+}
+
+.card-body .card-span {
+	font-weight: 300;
+	color: #212529;
+	font-size: 1em;
+}
+
+.price-text {
+	font-size: 3rem;
+	line-height: 1.5;
+	padding-left: 0.1em;
+}
+
+.pricing-column {
+	padding: 2em 0.5em;
+}

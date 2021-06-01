@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="../..../../assets/img/favicon-16x16.png"
+			type="image/x-icon"
+		/>
+		<title>Animação</title>
+		<script
+			src="https://kit.fontawesome.com/8bb6b0374f.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="../../global/estilo.css" />
+		<link rel="stylesheet" href="../../global/style.css" />
+	</head>
+
+	<body>
+		<nav class="navbar">
+			<div class="content">
+				<div class="h-icon menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>
+				<div class="logo">
+					<a href="../../pages/home/index.html">
+						<img
+							src="../..../../assets/img/LogoSVG.svg"
+							alt="Pinguins logo"
+							class="svg"
+						/>
+					</a>
+				</div>
+				<ul class="menu-list">
+					<div class="h-icon cancel-btn">
+						<i class="fas fa-times"></i>
+					</div>
+					<li class="list-each">
+						<a
+							href="../../pages/home/index.html"
+							target="_self"
+							class="nav-link"
+							>Início</a
+						>
+					</li>
+					<li class="list-each">
+						<a
+							href="./animacao.html"
+							target="_self"
+							id="active-page"
+							class="nav-link"
+							>Animação</a
+						>
+					</li>
+					<li class="list-each">
+						<a
+							href="../../pages/liveAction/liveAction.html"
+							target="_self"
+							class="nav-link"
+							>Live Action</a
+						>
+					</li>
+					<li class="list-each">
+						<a
+							href="../../pages/sobre/sobre.html"
+							target="_self"
+							class="nav-link"
+							>Sobre</a
+						>
+					</li>
+					<li class="doacao">
+						<a
+							href="../../pages/doacao/doacao.html"
+							target="_self"
+							class="nav-link"
+							>Doação</a
+						>
+					</li>
+				</ul>
+
+				<div class="icon">
+					<form id="busca">
+						<input type="search" />
+						<a href="../../pages/doacao/doacao.html">
+							<i
+								class="icone fas fa-hand-holding-heart fa-2x"
+							></i>
+						</a>
+						<a href="../../pages/login/login.html">
+							<i class="icone fas fa-user fa-2x fa-2x"></i>
+						</a>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="main-movie">
+			<div class="responsive-img">
+				<img src="../../assets/img/destaque-animacao.jpg" alt="penguins" />
+			</div>
+			<div class="container">
+				<div id="video">
+					<video class="video-destaque" autoplay loop muted>
+						<source
+							src="../../assets/video/destaqueAnimacao.mp4"
+							type="video/mp4"
+						/>
+					</video>
+				</div>
+				<div class="heading-text-button">
+					<div class="heading-text">
+						<h3 class="title">Os Pinguins de Madagascar</h3>
+						<p class="description">
+							Os valentes pinguins Capitão, Kowalski, Rico e
+							Recruta se unem com uma força de elite, chamada
+							Vento do Norte, para impedir que o vilão Dr.
+							Octavius Brine acabe com os pinguins do mundo todo.
+						</p>
+					</div>
+					<div class="heading-button">
+						<a
+							href="https://www.youtube.com/watch?v=4jsFpmFWOSs&ab_channel=MovieclipsComingSoon"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<button role="button" class="button">
+								<i class="fas fa-play"></i>Reproduzir
+							</button>
+						</a>
+
+						<a
+							href="https://www.imdb.com/title/tt1911658/?ref_=nv_sr_srsg_0"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<button role="button" class="button2">
+								<i class="fas fa-info-circle"></i>Mais
+								informações
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="recommended-movies container">
+			<div class="container-title-controls">
+				<h3>Animações</h3>
+				<div class="indicators"></div>
+			</div>
+
+			<div class="container-main">
+				<button role="button" id="left-arrow" class="left-arrow">
+					<i class="seta fas fa-angle-left"></i>
+				</button>
+
+				<div class="container-carrousel">
+					<div class="carrousel">
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=q3oC6Qz_Z_s&t=7s"
+								target="_blank"
+								><img src="../../assets/img/2.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=NF75QyhWmBs"
+								target="_blank"
+								><img src="../../assets/img/3.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=OPGRkDfw2mk"
+								target="_blank"
+								><img src="../../assets/img/4.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=4jsFpmFWOSs"
+								target="_blank"
+								><img src="../../assets/img/5.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=uFMUfJT63tM"
+								target="_blank"
+								><img src="../../assets/img/6.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=Qte3_DXGV0o"
+								target="_blank"
+								><img src="../../assets/img/7.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=RE3S022HGhQ"
+								target="_blank"
+								><img src="../../assets/img/8.jpg" alt=""
+							/></a>
+						</div>
+						<div class="movie">
+							<a
+								href="https://www.youtube.com/watch?v=kEfQpBuRzaI"
+								target="_blank"
+								><img src="../../assets/img/9.jpg" alt=""
+							/></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="right-arrow" class="right-arrow">
+					<i class="seta fas fa-angle-right"></i>
+				</button>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<ul class="social-list">
+				<li>
+					<a
+						class="icon-footer"
+						href="http://facebook.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i class="fab fa-facebook fa-2x"></i
+					></a>
+				</li>
+				<li>
+					<a
+						class="icon-footer"
+						href="http://twitter.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i class="fab fa-twitter fa-2x"></i
+					></a>
+				</li>
+				<li>
+					<a
+						class="icon-footer"
+						href="http://instagram.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i class="fab fa-instagram fa-2x"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
+		<script src="../../global/index.js"></script>
+		<script src="../../global/script.js"></script>
+	</body>
+</html>

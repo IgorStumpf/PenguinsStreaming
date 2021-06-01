@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link
+			rel="shortcut icon"
+			href="../../assets/img/favicon-16x16.png"
+			type="image/x-icon"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../../pages/login/login.css" />
+		<script src="../../pages/login/login.js"></script>
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="wrapper fadeInDown">
+			<div id="formContent">
+				<div class="fadeIn first">
+					<img
+						src="../../assets/img/LogoSVG.svg"
+						id="icon"
+						alt="User Icon"
+					/>
+				</div>
+				<form>
+					<input
+						type="text"
+						id="login"
+						class="fadeIn second"
+						name="login"
+						placeholder="E-mail"
+					/>
+					<input
+						type="password"
+						id="password"
+						class="fadeIn third"
+						name="login"
+						placeholder="Senha"
+					/>
+					<p id="alerta"></p>
+					<input
+						type="button"
+						class="fadeIn fourth"
+						value="Entrar"
+						onclick="redirecionar();"
+					/>
+				</form>
+				<div id="formFooter">
+					<a class="underlineHover" href="#">Esqueceu sua senha?</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
